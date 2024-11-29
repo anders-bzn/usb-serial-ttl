@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.4
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|74930000|49320000|a0714edb-c07f-4810-9f6a-afd335ce5103|28e397f8-c911-4abb-ab0d-7c13c8d2307f",
+        "silk_edge_clearance|74930000|58720000|a0714edb-c07f-4810-9f6a-afd335ce5103|075a307c-5263-4dee-b2b9-66fdd69ec79c"
+      ],
       "meta": {
         "version": 2
       },
@@ -239,7 +242,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|469900|698500|b2f4905c-b6b3-410d-9371-3f64a112a0ff|b8e8bf4b-62ad-4099-84ce-8dbf6d48bd1d|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8",
+      "pin_to_pin|469900|723900|613c64b0-f58d-40f6-ae6f-8116f387e52c|ac05bf59-b5db-4cba-9c7e-10a7f8eb0a08|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8",
+      "power_pin_not_driven|1206500|647700|58d0f682-6093-4017-808e-bdbb2df244aa|00000000-0000-0000-0000-000000000000|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|",
+      "power_pin_not_driven|1574800|698500|d21f1d01-4552-4451-832d-7466ff74a863|00000000-0000-0000-0000-000000000000|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|",
+      "power_pin_not_driven|1981200|698500|c82344b0-fc0c-41cf-bef9-db8014f26bfd|00000000-0000-0000-0000-000000000000|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|",
+      "power_pin_not_driven|1981200|850900|73b40f4a-10d4-4fee-a18f-bc81ade7952c|00000000-0000-0000-0000-000000000000|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|/45119d54-9bb4-41fa-943c-6e8d0ad5f7c8|"
+    ],
     "meta": {
       "version": 0
     },
